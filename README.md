@@ -22,7 +22,7 @@ This will change Build path to ./prebuild (supported with react-scripts >= 4.0.2
 
 This will copy everything from temporary build folder ./prebuild to ./build and remove the temporary folder as soon as the content copying is done.
 
-Change your main "build" script to run the previous added scripts:
+Change your main "build" script to run the previously added scripts:
 
 <code>"build": "npm run prebuild && npm run copy"</code>
 
